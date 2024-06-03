@@ -1,2 +1,3 @@
-name = "Beau"
-print(name)
+name = "Lee"
+age = 25
+
