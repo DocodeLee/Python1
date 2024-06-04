@@ -267,16 +267,31 @@
 # print(f"In the middle:{players[1:4]}")
 # print(f"Last : {players[-3:]}")
 
-my_pizza = ["pine", "sweet-potato", "potato"]
-fr_pizza = my_pizza[:]
-print(fr_pizza)
-my_pizza.append("shirimp")
-fr_pizza.append("Hot-chicken")
-print(f"My favorite pizzas are: {my_pizza}")
-print(f"Friend's favorite pizzas are: {fr_pizza}")
+# my_pizza = ["pine", "sweet-potato", "potato"]
+# fr_pizza = my_pizza[:]
+# print(fr_pizza)
+# my_pizza.append("shirimp")
+# fr_pizza.append("Hot-chicken")
+# print(f"My favorite pizzas are: {my_pizza}")
+# print(f"Friend's favorite pizzas are: {fr_pizza}")
 
-for pizza in my_pizza:
-    print(f"I like {pizza}")
+# for pizza in my_pizza:
+#     print(f"I like {pizza}")
     
-for f_pizza in fr_pizza:
-    print(f"friend likes {f_pizza}")
+# for f_pizza in fr_pizza:
+#     print(f"friend likes {f_pizza}")
+
+## Tuples
+## you cannot change items
+## use tuple when you don't want to change the value through the program
+# tuple = (200,50)
+# print(tuple[0])
+# print(tuple[1])
+
+## Practice
+buffets = ("rice","soup","chicken","noodle","rib")
+for buf in buffets:
+    print(buf)
+buffets = ("new_rice","new_soup","chicken","noodle","rib")
+for buf in buffets:
+    print(buf)
