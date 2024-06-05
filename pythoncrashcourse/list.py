@@ -289,9 +289,9 @@
 # print(tuple[1])
 
 ## Practice
-buffets = ("rice","soup","chicken","noodle","rib")
-for buf in buffets:
-    print(buf)
-buffets = ("new_rice","new_soup","chicken","noodle","rib")
-for buf in buffets:
-    print(buf)
+# buffets = ("rice","soup","chicken","noodle","rib")
+# for buf in buffets:
+#     print(buf)
+# buffets = ("new_rice","new_soup","chicken","noodle","rib")
+# for buf in buffets:
+#     print(buf)
