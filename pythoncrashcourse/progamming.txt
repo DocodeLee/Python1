@@ -1,0 +1,2 @@
+new
+ this line has appended by append mode

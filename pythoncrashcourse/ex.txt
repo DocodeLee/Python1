@@ -1,0 +1,3 @@
+"Hi this is the example txt.file"
+"This is second line"
+"And then third line"

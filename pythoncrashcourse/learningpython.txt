@@ -1,0 +1,5 @@
+"In python you can calculate"
+"you can use class to minimize the work"
+"you can use if when you want to run the code on special condiiton"
+"you can use for when you want to recycle the code every time"
+"you can use while loop to run and run in specific condiiton"
