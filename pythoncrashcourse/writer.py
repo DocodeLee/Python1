@@ -93,29 +93,30 @@ import json
 ## -----------------------------------------
 ## 10-13
 
-def get_stored_username():
-    filename = "username.json"
-    try:
-        with open(filename) as f:
-            user = json.load(f)
-    except FileNotFoundError:
-        return None
-    else:
-        return user
-def get_new_username():
-    username = input("What is your name?> ")
-    filename = 'username.json'
-    with open(filename,"w") as f:
-        json.dump(username,f)
+# def get_stored_username():
+#     filename = "username.json"
+#     try:
+#         with open(filename) as f:
+#             user = json.load(f)
+#     except FileNotFoundError:
+#         return None
+#     else:
+#         return user
+# def get_new_username():
+#     username = input("What is your name?> ")
+#     filename = 'username.json'
+#     with open(filename,"w") as f:
+#         json.dump(username,f)
         
     
-def greetuser():
-    username = get_stored_username()
-    current = input("Who are you? : ")
+# def greetuser():
+#     username = get_stored_username()
+#     current = input("Who are you? : ")
     
-    if username == current:
-        print(f"Welcome back {username}")
-    else:
-        username = get_new_username()
-        print(f"We will remember you {username}")        
-greetuser()
+#     if username == current:
+#         print(f"Welcome back {username}")
+#     else:
+#         username = get_new_username()
+#         print(f"We will remember you {username}")        
+# greetuser()
+
