@@ -1,6 +1,5 @@
 import sys
 import pygame
-from ship import Ship
 
 class Bluesky:
     """Overall class to manage game assets and behavior"""
@@ -11,11 +10,8 @@ class Bluesky:
         ##Setting the background color
         self.bg_color = (130, 218, 245)
         
-        self. screen = pygame.display.set_mode((1200,800))
+        self. screen = pygame.display.set_mode((800,600))
         pygame.display.set_caption("Blue Sky")
-        
-        ## part of ship
-        self.ship = Ship(self)
         
     def run_game(self):
         """Start the main loop for the game"""
@@ -24,10 +20,11 @@ class Bluesky:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     sys.exit()
+                elif event.type == pygame.KEYDOWN:
+                    print("Key pressed",pygame.key.name(event.key))
             
             #Redraw the screen during loop
             self.screen.fill(self.bg_color)
-            self.ship.blitme()
             #Make the most recently drawn screen
             pygame.display.flip()
 
